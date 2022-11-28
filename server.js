@@ -45,3 +45,4 @@ app.listen(PORT, () => {
     console.log(`Listening at port ${PORT}`);
 });
 
+console.log(process.env.NODE_ENV)
